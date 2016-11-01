@@ -56,7 +56,8 @@ h6 {
   border-color: #00ace6;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
+  justify-content: center;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -100,10 +101,11 @@ fieldset[disabled] .btn-primary.active {
   border-color: #00ace6;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   border-radius: 3px;
-  font-size: 18px;
-  padding: 20px 40px;
+  font-size: 16px;
+  padding: 12px 24px;
+  margin-bottom: 100px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -140,6 +142,13 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl .badge {
   color: #00ace6;
   background-color: white;
+}
+.btn-inside {
+  display: flex;
+  align-items: center;
+}
+.fb {
+  margin-right: 20px;
 }
 .navbar-default {
   background-color: #00ace6;
@@ -232,10 +241,12 @@ header {
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
+  padding-right: 80px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Cormorant Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
+  text-align: left;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
@@ -250,14 +261,15 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 160px;
+    padding-right: 400px;
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Cormorant Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 22px;
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
@@ -279,7 +291,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Cormorant Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -346,7 +358,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Cormorant Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
@@ -711,7 +723,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Cormorant Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }
