@@ -104,7 +104,7 @@ fieldset[disabled] .btn-primary.active {
   font-weight: 600;
   border-radius: 3px;
   font-size: 16px;
-  padding: 12px 24px;
+  padding: 10px 20px;
   margin-bottom: 100px;
 }
 .btn-xl:hover,
@@ -249,7 +249,7 @@ header .intro-text .intro-lead-in {
   text-align: left;
   font-size: 22px;
   line-height: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 header .intro-text .intro-heading {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -270,7 +270,7 @@ header .intro-text .intro-heading {
     font-style: italic;
     font-size: 22px;
     line-height: 22px;
-    margin-bottom: 25px;
+    margin-bottom: 180px;
   }
   header .intro-text .intro-heading {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -290,7 +290,7 @@ section h2.section-heading {
   margin-bottom: 15px;
 }
 section h3.section-subheading {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Cormorant Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
@@ -305,6 +305,36 @@ section h3.section-subheading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+.prices-bg {
+  background: #eb01a5;
+  background-size: cover;
+  background-image: url('../img/prices-bg2.jpg');
+  /* fallback */
+  background-image: url('../img/prices-bg2.jpg'), linear-gradient(#eb01a5, #d13531);
+  /* W3C */
+}
+.about {
+  font-family: "Cormorant Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.about-indent {
+  font-family: "Cormorant Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-indent: 4%;
+}
+.icons {
+  padding-top: 80px;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
