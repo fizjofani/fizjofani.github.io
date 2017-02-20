@@ -15,8 +15,15 @@ p {
 p.large {
   font-size: 16px;
 }
-th {
-  font-size: 80%;
+th,
+td {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  th,
+  td {
+    font-size: 20px;
+  }
 }
 a,
 a:hover,
